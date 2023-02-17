@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelector(".title");null==e||e.addEventListener("click",(function(){return alert("You clicked on the title...")}))})();
