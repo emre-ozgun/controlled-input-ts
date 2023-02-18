@@ -1,4 +1,4 @@
-# Controlled Input - Technical Assignment
+# Controlled Input - Take-home Assignment
 
 A vanilla TypeScript controlled input implementation.
 
