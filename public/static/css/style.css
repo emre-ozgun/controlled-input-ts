@@ -1,7 +1,100 @@
-body {
-  background-color: #EEE;
+/* Global Styles */
+:root {
+
+  --clr-bg: #FAFAFA;
+  --clr-black: #222;
+  --clr-light-grey: #EEE;
+  --clr-white: #FFF;
+
+  --global-padding: 1rem;
+  --global-radius: 4px;
+
+  /* Controlled input visual feedback colors */
+  --control-focus-valid: #52c41a;
+  --control-focus-invalid: #f5222d;
+  --control-blur-valid: #95de64;
+  --control-blur-invalid: #ffa39e;
 }
 
-.title {
-  font-size: 4rem;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: var(--clr-white);
+  min-height: 100vh;
+}
+
+main {
+  width: 768px;
+  max-width: 90%;
+  min-height: 768px;
+  margin: 1rem auto;
+  padding: var(--global-padding);
+  border: 1px solid var(--clr-black);
+  border-radius: var(--global-radius);
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  margin-top: 4rem;
+}
+
+/* End of Global Styles */
+
+
+/* Input Styles */
+.input-container {
+  display: flex;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+/* Visual feedback - To be dynamically inserted */
+
+.input-container.idle {
+  border-color: var(--clr-light-grey);
+}
+
+.input-container.focus-valid {
+  border-color: var(--control-focus-valid);
+}
+
+.input-container.focus-invalid {
+  border-color: var(--control-focus-invalid);
+}
+
+.input-container.blur-valid {
+  border-color: var(--control-blur-valid);
+}
+
+.input-container.blur-invalid {
+  border-color: var(--control-blur-invalid);
+}
+
+.input-container__input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.input-container__output {
+  display: grid;
+  place-items: center;
+  width: auto;
+  min-width: 100px;
+  padding: 0.5rem 1rem;
+  background-color: #EEE;
+  color: #222;
+}
+
+/* End of Input Styles */
