@@ -4,7 +4,7 @@ A vanilla TypeScript controlled input implementation.
 
 # Spinning up the project
 1. Clone
-2. Within the root directory, execute ```sh npm install && npm start ```
+2. Within the root directory, execute ``` npm install && npm start ```
 3. Open locally (e.g with LiveServer extension on VSCode)
 
 # Screens
