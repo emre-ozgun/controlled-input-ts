@@ -2,7 +2,7 @@
 
 A vanilla TypeScript controlled input implementation.
 
-Checkout live demo via: https://muratemreozgun-controlled-input.netlify.app/
+Check out live demo via: https://muratemreozgun-controlled-input.netlify.app/
 
 # Spinning up the project
 1. Clone
