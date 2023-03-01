@@ -2,6 +2,8 @@
 
 A vanilla TypeScript controlled input implementation.
 
+Checkout live demo via: https://muratemreozgun-controlled-input.netlify.app/
+
 # Spinning up the project
 1. Clone
 2. Within the root directory, execute ``` npm install && npm start ```
